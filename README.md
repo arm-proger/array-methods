@@ -52,4 +52,17 @@
 
 ---
 
+4. Swapping Values using the Destructuring Assignment
+
+```js
+  let a = 3;
+  let b = 6;
+
+  console.log(a); //6
+  console.log(b); //3
+```
+
+[Decision](./src/4.swapVals.js)
+
+---
 
