@@ -14,14 +14,14 @@ const sortedDesc = (array) => {
 }
 
 // Sort by position
-const sortBy = (arr, position) => {
+const sortBy = (arr, position = 'Asc') => {
   let sortedArr = []
   if (position === 'Asc') sortedArr = sortedAsc(arr)
   else if (position === 'Desc') sortedArr = sortedDesc(arr)
 
-  return sortedArr.length > 0 ? sortedArr : arr
+  return sortedArr
 }
 
 console.log(sortBy([4, 3, 2, 1], 'Asc')) // [1, 2, 3, 4]
-console.log(sortBy([7, 8, 11, 66])) // [7, 8, 11, 66]
+console.log(sortBy([7, 11, 8, 66, 25])) // [7, 8, 11, 66]
 console.log(sortBy([7, 8, 11, 66], 'Desc')) // [66, 11, 8, 7]
