@@ -83,3 +83,26 @@ Create a function that takes an array of numbers arr, a string str and return an
 
 ---
 
+__6. MAP__
+
+Write a function which returns array of usernames.
+
+```js
+  const users = [
+    {
+      username: "Yuri Gagarin",
+      lang: "ru",
+    },
+    {
+      username: "Nil Armstrong",
+      lang: "ENG",
+    },
+  ];
+  
+  getUserNames(users); // ['Yuri Gagarin', 'Nil Armstrong']
+```
+
+[Decision](./src/sort/1.ascDesc.js)
+
+---
+

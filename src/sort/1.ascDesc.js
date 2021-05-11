@@ -22,6 +22,6 @@ const sortBy = (arr, position) => {
   return sortedArr.length > 0 ? sortedArr : arr
 }
 
-console.log(sortBy([4, 3, 2, 1], "Asc" )) // [1, 2, 3, 4]
+console.log(sortBy([4, 3, 2, 1], 'Asc')) // [1, 2, 3, 4]
 console.log(sortBy([7, 8, 11, 66])) // [7, 8, 11, 66]
-console.log(sortBy([7, 8, 11, 66], "Desc")) // [66, 11, 8, 7]
+console.log(sortBy([7, 8, 11, 66], 'Desc')) // [66, 11, 8, 7]
