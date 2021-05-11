@@ -2,14 +2,14 @@
 
 const users = [
   {
-    username: "Yuri Gagarin",
-    lang: "ru",
+    username: 'Yuri Gagarin',
+    lang: 'ru',
   },
   {
-    username: "Nil Armstrong",
-    lang: "ENG",
+    username: 'Nil Armstrong',
+    lang: 'ENG',
   },
-];
+]
 
 function filterUsers(users) {
   const removedRu = users.filter((el) => el.lang !== 'ru')
@@ -17,4 +17,4 @@ function filterUsers(users) {
   return removedRu
 }
 
-console.log(filterUsers(users)); // [{ username: "Nil Armstrong, lang: "ENG" }]
+console.log(filterUsers(users)) // [{ username: "Nil Armstrong, lang: "ENG" }]
