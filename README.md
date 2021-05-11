@@ -98,11 +98,136 @@ Write a function which returns array of usernames.
       lang: "ENG",
     },
   ];
-  
+
   getUserNames(users); // ['Yuri Gagarin', 'Nil Armstrong']
 ```
 
-[Decision](./src/sort/1.ascDesc.js)
+[Decision](./src/sort/1.getUserNames.js)
 
 ---
 
+Write a function which returns array of lengths of user names.
+
+```js
+  const users = [
+    {
+      username: "Yuri Gagarin",
+      lang: "ru",
+    },
+    {
+      username: "Nil Armstrong",
+      lang: "ENG",
+    },
+  ];
+
+  getUsernameLengths(users); // [12, 13]
+```
+
+[Decision](./src/sort/2.lengthUserNames.js)
+
+---
+
+Write a function which parses string integers. If it's not possible to parse, then add null.
+
+```js
+  parseInteger(["1", "2", "34"]); // [1, 2, 34];
+  parseInteger(["1", "px", "2323"]); // [1, null, 2323];
+```
+
+[Decision](./src/sort/3.parseString.js)
+
+---
+
+__7. FILTER__
+
+Given an array, return a new array that only includes the numbers.
+
+```js
+  const arr = [1, 2, 'a', true, {}, undefined, 55, false, 'hi', null, 166, NaN] // [1, 2, 55, 166]
+```
+
+[Decision](./src/filter/1.getOnlyNums.js)
+
+---
+
+Write a function which remove users with language equals to 'ru'.
+
+```js
+  const users = [
+    {
+      username: "Yuri Gagarin",
+      lang: "ru",
+    },
+    {
+      username: "Nil Armstrong",
+      lang: "ENG",
+    },
+  ];
+  filterUsers(users); // [{ username: "Nil Armstrong, lang: "ENG" }]
+```
+
+[Decision](./src/filter/2.removeRuLang.js)
+
+---
+
+Write a function which filters object by field.
+
+```js
+  const users = [
+    {
+      username: "Yuri Gagarin",
+      lang: "ru",
+      isAstronaut: true,
+    },
+    {
+      username: "Nil Armstrong",
+      lang: "ENG",
+      isAstronaut: true,
+    },
+    {
+      username: "Elon Musk",
+      isAstronaut: false,
+    },
+  ];
+  
+  filterByField(users, "isAstronaut"); // [{ username: "Yuri Gagarin", lang: "ru", isAstronaut: true, }, { username: "Nil Armstrong, lang: "ENG" }]
+```
+
+[Decision](./src/filter/3.filterByField.js)
+
+---
+
+__8. REDUCE__
+
+Given an array, return the sum of numbers that are 18 or over.
+
+```js
+  const arr = [1, 22, 55, 166, 5, 36, 11, 205, 333, 95, 62, 10, 43] // 22 + 55 + 166 + 366 + 205 + 333 + 95 + 62 + 43 = 1347
+```
+
+[Decision](./src/reduce/1.sumEighteenOver.js)
+
+---
+
+Write a function which calculates average age of users.
+
+```js
+const users = [
+  {
+    username: "Yuri Gagarin",
+    lang: "ru",
+    age: 56,
+  },
+  {
+    username: "Nil Armstrong",
+    lang: "ENG",
+    age: 54,
+  },
+];
+
+getAverageAge(users); // 55
+```
+
+[Decision](./src/reduce/2.calcAverage.js)
+
+---
