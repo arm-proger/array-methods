@@ -4,6 +4,21 @@
 
 * Source
   * 1.concatArrs.js
+  * 2.argsSum.js
+  * 3.threeArgsSum.js
+  * Filter
+    * 1.getOnlyNums.js
+    * 2.removeRuLang.js
+    * 3.filterByField.js
+  * Map
+    * 1.getUserNames.js
+    * 2.lengthUserNames.js
+    * 3.parseString.js
+  * Reduce
+    * 1.sumEighteenOver.js
+    * 2. calcAverage.js
+  * Sort
+    * 1.ascDesc.js
 * README.md
 
 ---
