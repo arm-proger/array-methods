@@ -29,12 +29,12 @@
       return sum + current;
     });
   }
-  
+
   sum(1, 2); // prints 3
   sum(1, 2, 3); // prints 6
 ```
 
-[Decision](./src/1.concateArrs.js)
+[Decision](./src/2.argsSum.js)
 
 ---
 
