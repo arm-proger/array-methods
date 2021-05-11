@@ -13,7 +13,7 @@ const sortedDesc = (array) => {
   })
 }
 
-
+// Sort by position
 const sortBy = (arr, position) => {
   let sortedArr = []
   if (position === 'Asc') sortedArr = sortedAsc(arr)
