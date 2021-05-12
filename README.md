@@ -19,6 +19,18 @@
     * 2. calcAverage.js
   * Sort
     * 1.ascDesc.js
+  * `Implements`
+    * forEach
+    * slice
+    * splice
+    * findIndex
+    * find
+    * map
+    * filter
+    * every
+    * some
+    * reduce
+    
 * README.md
 
 ---
