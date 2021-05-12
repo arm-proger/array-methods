@@ -1,7 +1,7 @@
 // Find index implement method
-const findIndexImplement = (array, callback) => {
+const findImplement = (array, callback) => {
   for (let index = 0; index < array.length; index++) {
-    if(callback(array[index], index, array)) {
+    if (callback(array[index], index, array)) {
       return array[index]
     }
   }
@@ -15,4 +15,4 @@ const isPrime = (element) => {
   return element >= 100
 }
 
-console.log(findIndexImplement(numbers, isPrime))
+console.log(findImplement(numbers, isPrime))
