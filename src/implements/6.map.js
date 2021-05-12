@@ -1,4 +1,4 @@
-// Find index implement method
+// Map implement method
 const mapImplement = (array, callback) => {
   const mappedArr = []
 
