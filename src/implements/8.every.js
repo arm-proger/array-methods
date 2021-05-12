@@ -3,12 +3,10 @@ const filterImplement = (array, callback) => {
   const filteredArr = []
 
   for (let index = 0; index < array.length; index++) {
-    if (callback(array[index], index, array)) return true
-
-    return false
+    if (!callback(array[index], index, array)) return false
   }
-
-  return filteredArr
+  
+  return true
 }
 
 // Example task
